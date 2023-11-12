@@ -26,14 +26,14 @@ let choice:i32 = input1.trim().parse().expect("input not a string");
 println!("Also if your purchase exceeds N10,000 you will get a discount");
 println!();
 
-if choice <= 2000
+if choice == 2000
 {
     println!("you can only afford 'eba and Egusi' ");
 }
-else if choice <=2500 {
+else if choice >2000 && choice <=2500 {
     println!("You can only afford 'eba and Egusi' and 'Amala and Ewedu soup','white rice and stew'");
 }
-else if choice <= 3000{
+else if choice >2000 && choice <= 3499{
     println!("You can only afford 'eba and Egusi','Amala and Ewedu soup','white rice and stew' and 'fried rice and chicken' ");
 }
 else if choice >3500 && choice <10000{
