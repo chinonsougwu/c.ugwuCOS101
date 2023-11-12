@@ -17,7 +17,7 @@ println!();
     let b:f32 =time.trim().parse().expect("Not a valid number");
 
     let s:f32 =a/b;
-    println!("The speed is: {}",s);
+    println!("The speed is: {} km/hr",s);
     
 
 
