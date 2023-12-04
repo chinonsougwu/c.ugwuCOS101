@@ -1,5 +1,5 @@
 use std::io;
-
+let department = computer_science;
 
 fn main() {
    
@@ -20,5 +20,8 @@ fn main() {
         io::stdin().read_line(&mut age).expect("failed input");
     let age:i32 = age.trim().parse().expect("input not an integer");
     println!("Your age is {}",age);   
-
+if name == department && age>19
+{
+    println!(" you are gayyy");
+}
 }
